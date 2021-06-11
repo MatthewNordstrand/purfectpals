@@ -4,6 +4,8 @@
   "description": "Portfolio project by Matt Nordstrand",
   "main": "index.html",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matt Nordstrand",
