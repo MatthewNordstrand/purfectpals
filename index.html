@@ -35,22 +35,51 @@
         <div class="collapse navbar-collapse" id="siteNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-money fa-lg"></i> Donate</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-question fa-lg"></i> FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-comments fa-lg"></i> Contact</a></li>
             </ul>
-            <span class="navbar-text ml-auto">
+            <!-- <span class="navbar-text ml-auto">
                 <a role="button" data-toggle="modal" data-target="#loginModal">
                     <i class="fa fa-sign-in"></i> Login
                 </a>
-            </span>
+            </span> -->
         </div>
     </nav>
 
     <div class="container">
         <div class="row">
-            <div class="col">
-                <p>Main content here</p>
+            <div class="col-md-10 col-lg-8 adopt-search-container mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h5>Adopt, Don't Shop!</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <p class="col-12 my-0 text-center">I'm looking for a...</p>
+                                <div class="col-10 offset-2">
+                                    <input type="radio" name="typeRadio" id="typeCat" value="typeCat" checked> <label for="typeCat">Cat</label>
+                                </div>
+                                <div class="col-10 offset-2">
+                                    <input type="radio" name="typeRadio" id="typeDog" value="typeDog"> <label for="typeDog">Dog</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-auto">
+                            <p class="col-12 my-0 text-center">Zip Code</p>
+                            <div class="col-10 offset-1">
+                                <input class="col-12" type="text" name="zipCode" id="zipCode" placeholder="ZIP">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center my-auto">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
