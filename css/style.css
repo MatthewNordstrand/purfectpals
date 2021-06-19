@@ -7,9 +7,16 @@
 }
 
 .adopt-search-container {
-    background-color: red;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid black;
 }
 
-.test-area {
-    background-color: yellow;
+.adopt-search-item {
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+body {
+    background-color: green;
 }
