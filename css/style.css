@@ -23,3 +23,7 @@
 .banner-spacer {
     height: 375px;
 }
+
+textarea {
+    resize: none;
+}

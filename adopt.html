@@ -94,12 +94,13 @@
                             </div>
 
                             <div class="form-row mt-5">
-                                <h4>Pet Info</h4>
+                                <h4>Pet Adoption Info</h4>
                             </div>
 
                             <div class="form-row">
                                 <div class="col">
-                                    <span class="form-text">What kind of pet are you looking for?</span>
+                                    <span class="form-text mb-0">What kind of pet are you looking for?</span>
+                                    <small class="form-text text-muted mt-0">If you don't have a particular pet's name yet.</small>
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" name="typeChecks" id="typeCat" value="typeCat">
                                         <label for="contactPhone" class="form-check-label"> Cat</label>
@@ -108,12 +109,36 @@
                                         <input type="checkbox" class="form-check-input" name="typeChecks" id="typeDog" value="typeDog">
                                         <label for="contactEmail" class="form-check-label"> Dog</label>
                                     </div>
-                                    <small class="form-text text-muted">If you don't have a particular pet's name yet.</small>
                                 </div>
                             </div>
 
+                            <div class="form-row mt-3">
+                                <div class="col">
+                                    <label for="petName" class="mb-0">Pet Name</label>
+                                    <small class="form-text text-muted mt-0">Only required if you know which pet you want</small>
+                                    <input type="text" class="form-control" name="perName" id="perName">
+                                </div>
+                            </div>
+
+                            <div class="form-row mt-5">
+                                <h4>Current Pet Info</h4>
+                            </div>
+
                             <div class="form-row">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <div class="col-md-3">
+                                    <label for="petAmount">How many pets do you have?</label>
+                                    <input type="number" class="form-control" name="petAmount" id="petAmount" value="0">
+                                </div>
+                                <div class="col">
+                                    <label for="petDescription">Describe your current pet situation</label>
+                                    <textarea name="petDescription" class="form-control" id="petDescription" rows="10"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-row mt-5">
+                                <div class="col text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
                             </div>
                         </form>
                     </div>
