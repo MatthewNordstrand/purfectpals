@@ -1,36 +1,34 @@
-/*
-    Colors:
-    Primary: #B000FF
-    Secondary: #5F819E
-    Black: #000000
-*/
+$color-primary: #B000FF;
+$color-secondary: #5F819E;
+$color-dark: #000000;
+$color-light: #FFFFFF;
 
 .jumbotron-fluid {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5F819E, #B000FF, #5F819E);
-    color: white;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-secondary);
+    color: $color-light;
 }
 
 .navbar {
-    background-color: #B000FF;
+    background-color: $color-primary;
 }
 
 .btn-primary {
-    background-color: #B000FF;
-    border: #B000FF;
+    background-color: $color-primary;
+    border: $color-primary;
 }
 
 .btn-primary:hover {
-    background-color: #5F819E;
+    background-color: $color-secondary;
 }
 
 .site-footer {
-    background-image: linear-gradient(white, #B000FF);
+    background-image: linear-gradient($color-light, $color-primary);
 }
 
 .site-footer a {
-    color: black;
+    color: $color-dark;
 }
 
 textarea {

@@ -1,14 +1,8 @@
-/*
-    Colors:
-    Primary: #B000FF
-    Secondary: #5F819E
-    Black: #000000
-*/
 .jumbotron-fluid {
   margin: 0;
   padding: 30px;
   background-image: linear-gradient(to right, #5F819E, #B000FF, #5F819E);
-  color: white; }
+  color: #FFFFFF; }
 
 .navbar {
   background-color: #B000FF; }
@@ -21,10 +15,10 @@
   background-color: #5F819E; }
 
 .site-footer {
-  background-image: linear-gradient(white, #B000FF); }
+  background-image: linear-gradient(#FFFFFF, #B000FF); }
 
 .site-footer a {
-  color: black; }
+  color: #000000; }
 
 textarea {
   resize: none; }
