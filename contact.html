@@ -49,8 +49,45 @@
     
     <div class="container">
         <div class="row">
+            <div class="col-md-8 align-self-center">
+                <h2>Contact Us</h2>
+                <p>Feel free to call or email us, or feel free to fill out the form below.</p>
+            </div>
             <div class="col">
-                content
+                <div class="card mt-1 mb-1">
+                    <h3 class="card-header">Our Contact Details</h3>
+                    <div class="card-body">
+                        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234<br></a>
+                        <a role="button" class="btn btn-link" href="mailto:contact@purfectpals.com"><i class="fa fa-envelope-o"></i> contact@purfectpals.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-1">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                        <div class="col-md">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="phone" class="form-control" name="phoneNumber" id="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="comment">Comment, concern, or question</label>
+                            <textarea class="form-control" name="comment" id="comment" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row mt-1">
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
