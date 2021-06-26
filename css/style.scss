@@ -23,14 +23,26 @@ $color-light: #FFFFFF;
     background-color: $color-secondary;
 }
 
-.site-footer {
-    background-image: linear-gradient($color-light, $color-primary);
+.card-header {
+    background-color: $color-secondary;
 }
 
-.site-footer a {
-    color: $color-dark;
+.accordion {
+    .card-header {
+        button {
+            color: $color-dark;
+        }
+    }
 }
 
 textarea {
     resize: none;
+}
+
+.site-footer {
+    background-image: linear-gradient($color-light, $color-primary);
+
+    a {
+        color: $color-dark;
+    }
 }

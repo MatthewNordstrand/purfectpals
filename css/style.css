@@ -14,11 +14,16 @@
 .btn-primary:hover {
   background-color: #5F819E; }
 
-.site-footer {
-  background-image: linear-gradient(#FFFFFF, #B000FF); }
+.card-header {
+  background-color: #5F819E; }
 
-.site-footer a {
+.accordion .card-header button {
   color: #000000; }
 
 textarea {
   resize: none; }
+
+.site-footer {
+  background-image: linear-gradient(#FFFFFF, #B000FF); }
+  .site-footer a {
+    color: #000000; }
