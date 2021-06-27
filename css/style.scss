@@ -39,6 +39,10 @@ textarea {
     resize: none;
 }
 
+.table-row {
+    min-height: 300px;
+}
+
 .site-footer {
     background-image: linear-gradient($color-light, $color-primary);
 

@@ -23,6 +23,9 @@
 textarea {
   resize: none; }
 
+.table-row {
+  min-height: 300px; }
+
 .site-footer {
   background-image: linear-gradient(#FFFFFF, #B000FF); }
   .site-footer a {
