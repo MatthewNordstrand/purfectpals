@@ -23,6 +23,13 @@ $color-light: #FFFFFF;
     background-color: $color-secondary;
 }
 
+.btn-group {
+    .btn {
+        background-color: $color-primary;
+        border: $color-primary;
+    }
+}
+
 .card-header {
     background-color: $color-secondary;
 }

@@ -14,6 +14,10 @@
 .btn-primary:hover {
   background-color: #5F819E; }
 
+.btn-group .btn {
+  background-color: #B000FF;
+  border: #B000FF; }
+
 .card-header {
   background-color: #5F819E; }
 
