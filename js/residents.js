@@ -8,20 +8,20 @@ var dogElements = document.querySelectorAll(".dog");
 
 function setFilters(showCats, showDogs) {
 
-    catElements.forEach(element => {
+    for (var i = 0; i < catElements.length ; i++) {
         if (showCats) {
-            element.classList.remove("d-none");
+            catElements[i].classList.remove("d-none");
         } else {
-            element.classList.add("d-none");
+            catElements[i].classList.add("d-none");
         }
-    });
+    }
 
-    dogElements.forEach(element => {
+    for (var i = 0; i < dogElements.length ; i++) {
         if (showDogs) {
-            element.classList.remove("d-none");
+            dogElements[i].classList.remove("d-none");
         } else {
-            element.classList.add("d-none");
+            dogElements[i].classList.add("d-none");
         }
-    });
+    }
 
 }
