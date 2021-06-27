@@ -1,33 +1,27 @@
-document.querySelector("#optionsAll").addEventListener("click", showAll);
-document.querySelector("#optionsCats").addEventListener("click", showCats);
-document.querySelector("#optionsDogs").addEventListener("click", showDogs);
+
+document.querySelector("#optionsAll").addEventListener("click", function() { setFilters(true, true) });
+document.querySelector("#optionsCats").addEventListener("click", function() { setFilters(true, false) });
+document.querySelector("#optionsDogs").addEventListener("click", function() { setFilters(false, true) });
 
 var catElements = document.querySelectorAll(".cat");
 var dogElements = document.querySelectorAll(".dog");
 
-function showAll() {
-    catElements.forEach(element => {
-        element.classList.remove("d-none");
-    });
-    dogElements.forEach(element => {
-        element.classList.remove("d-none");
-    });
-}
+function setFilters(showCats, showDogs) {
 
-function showCats() {
     catElements.forEach(element => {
-        element.classList.remove("d-none");
+        if (showCats) {
+            element.classList.remove("d-none");
+        } else {
+            element.classList.add("d-none");
+        }
     });
-    dogElements.forEach(element => {
-        element.classList.add("d-none");
-    });
-}
 
-function showDogs() {
-    catElements.forEach(element => {
-        element.classList.add("d-none");
-    });
     dogElements.forEach(element => {
-        element.classList.remove("d-none");
+        if (showDogs) {
+            element.classList.remove("d-none");
+        } else {
+            element.classList.add("d-none");
+        }
     });
+
 }
