@@ -1,7 +1,7 @@
 .jumbotron-fluid {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5F819E, #B000FF, #5F819E);
+  background-image: linear-gradient(#5F819E, #B000FF);
   color: #FFFFFF; }
 
 .navbar {
